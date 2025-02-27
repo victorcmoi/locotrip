@@ -29,13 +29,15 @@ export default function Home() {
   const [menu, setMenu] = useState(false);
   const [language, setLanguage] = useState("fr");
 
-  const getLocalizedString = (text: string, language: string = "en", defaultLang = "en") => {
+  const getLocalizedString = (text: string, language: string = "en", defaultLang: string = "en"): string => {
     const regex = /\[(\w+)]\s*([^[]+)/g;
-    let match;
-    const texts = {};
+    let match: RegExpExecArray | null;
+    const texts: Record<string, string> = {};
+
     while ((match = regex.exec(text)) !== null) {
       texts[match[1]] = match[2].trim();
     }
+
     return texts[language] || texts[defaultLang] || text.trim();
   };
 
