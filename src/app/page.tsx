@@ -48,11 +48,11 @@ export default function Home() {
           <Link href="#head"><Image src={logo_horizontal} alt="Logo Locotrip" className="h-12 w-auto -translate-y-1 object-contain"/></Link>
           <Menu onClick={() => setMenu(true)} className={`lg:hidden stroke-green h-10 w-auto ${menu ? 'hidden' : 'block'}`}/>
           <X onClick={() => setMenu(false)} className={`lg:hidden stroke-green h-10 w-auto ${menu ? 'block' : ' hidden'}`}/>
-          <div className=" leading-4 hidden lg:flex gap-4 xl:gap-8 uppercase text-green font-bold xl:text-lg ">
-            <Link href="#description" className="leading-2">{getLocalizedString("[fr]Notre projet [en]Our Project", language)}</Link>
-            <Link href="#europe" className="leading-2">{getLocalizedString("[fr]Destinations [en]Destinations", language)}</Link>
-            <Link href="#steps" className="leading-2">{getLocalizedString("[fr]Fonctionnement [en]How It Works", language)}</Link>
-            <Link href="#newsletter" className="leading-2">{getLocalizedString("[fr]Newsletter [en]Newsletter", language)}</Link>
+          <div className=" leading-4 hidden lg:flex gap-4 xl:gap-8 uppercase items-center text-green font-bold  ">
+            <Link href="#description">{getLocalizedString("[fr]Notre projet [en]Our Project", language)}</Link>
+            <Link href="#europe">{getLocalizedString("[fr]Destinations [en]Destinations", language)}</Link>
+            <Link href="#steps">{getLocalizedString("[fr]Fonctionnement [en]How It Works", language)}</Link>
+            <Link href="#newsletter">{getLocalizedString("[fr]Newsletter [en]Newsletter", language)}</Link>
             <select onChange={(e) => setLanguage(e.target.value)} value={language} className="border p-1 rounded">
               <option value="fr">FR</option>
               <option value="en">EN</option>
@@ -135,8 +135,6 @@ export default function Home() {
                 </p>
                 <p className="text-base xl:text-lg">
                   {getLocalizedString("[fr]Échangez avec des guides passionnés et vivez des moments inoubliables [en]Engage with passionate guides and experience unforgettable moments", language)}
-
-
                 </p>
               </div>
             </div>
@@ -233,9 +231,9 @@ export default function Home() {
         <section id="newsletter" className="bg-green max-w-7xl mx-4 xl:mx-auto my-6 md:my-12 p-4 md:p-8 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-[0_0_20px] shadow-black/20">
           <div className="text-white text-base md:text-lg lg:w-2/3">
             <h2 className="font-bold text-yellow text-3xl md:text-5xl mb-4">{getLocalizedString("[fr]Rejoignez notre communauté de voyageurs [en]Join our traveler community", language)}</h2>
-            <p>{getLocalizedString("[fr]Inscrivez-vous à notre newsletter et suivez toutes les étapes importantes du projet de la beta, à la sortie, jusqu&apos;au offres promotionelles de l&apos;applications. [en]Sign up for our newsletter and follow all the important steps of the project, from beta release to promotional offers for the app.", language)}</p>
+            <p>{getLocalizedString("[fr]Inscrivez-vous à notre newsletter et suivez toutes les étapes importantes du projet de la beta, à la sortie, jusqu'au offres promotionelles de l'applications. [en]Sign up for our newsletter and follow all the important steps of the project, from beta release to promotional offers for the app.", language)}</p>
           </div>
-          <form action="post" className="flex gap-4 flex-col sm:flex-row sm:items-end">
+          <form action="get" className="flex gap-4 flex-col sm:flex-row sm:items-end">
             <input type="email" name="email" id="email" placeholder={getLocalizedString("[fr]Votre e-mail [en]Your email", language)} className="px-4 py-2 text-2xl rounded-xl w-full sm:w-auto"/>
             <input type="submit" value={getLocalizedString("[fr]S'inscrire [en]Sign Up", language)} className="uppercase px-6 py-2.5 bg-yellow hover:scale-110 font-semibold duration-500 text-xl cursor-pointer rounded-xl w-full sm:w-auto"/>
           </form>
