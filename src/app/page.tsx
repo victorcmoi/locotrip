@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/globals/Button";
 import {
-  Calendar,
   CalendarCheck,
   CheckCircle,
   Globe,
@@ -13,7 +12,7 @@ import {
   Search,
   ShieldCheck,
   Train,
-  Users
+  Users, MessageSquareText
 } from "lucide-react";
 import header_photos from "@/assets/images/tourist_head_photo.jpg";
 import old_trip_photo from "@/assets/images/old_trip_photo.jpg";
@@ -46,13 +45,13 @@ export default function Home() {
       <header className="z-50 fixed top-0 xl:top-4 xl:left-1/2 xl:-translate-x-1/2 w-full max-w-7xl ">
         <div className="z-20 relative bg-white flex justify-between items-center py-2 px-3 xl:px-12 xl:rounded-full shadow-[0_0_20px] shadow-black/20 ">
           <Link href="#head"><Image src={logo_horizontal} alt="Logo Locotrip" className="h-12 w-auto -translate-y-1 object-contain"/></Link>
-          <Menu onClick={() => setMenu(true)} className={`lg:hidden stroke-green h-10 w-auto ${menu ? 'hidden' : 'block'}`}/>
-          <X onClick={() => setMenu(false)} className={`lg:hidden stroke-green h-10 w-auto ${menu ? 'block' : ' hidden'}`}/>
+          <Menu onClick={() => setMenu(true)} className={`lg:hidden stroke-green h-10 w-auto hover:scale-110 duration-500 ${menu ? 'hidden' : 'block'}`}/>
+          <X onClick={() => setMenu(false)} className={`lg:hidden stroke-green h-10 w-auto hover:scale-110 duration-500 ${menu ? 'block' : ' hidden'}`}/>
           <div className=" leading-4 hidden lg:flex gap-4 xl:gap-8 uppercase items-center text-green font-bold  ">
-            <Link href="#description">{getLocalizedString("[fr]Notre projet [en]Our Project", language)}</Link>
-            <Link href="#europe">{getLocalizedString("[fr]Destinations [en]Destinations", language)}</Link>
-            <Link href="#steps">{getLocalizedString("[fr]Fonctionnement [en]How It Works", language)}</Link>
-            <Link href="#newsletter">{getLocalizedString("[fr]Newsletter [en]Newsletter", language)}</Link>
+            <Link href="#description" className="hover:underline">{getLocalizedString("[fr]Notre projet [en]Our Project", language)}</Link>
+            <Link href="#europe" className="hover:underline">{getLocalizedString("[fr]Destinations [en]Destinations", language)}</Link>
+            <Link href="#steps" className="hover:underline">{getLocalizedString("[fr]Fonctionnement [en]How It Works", language)}</Link>
+            <Link href="#newsletter" className="hover:underline">{getLocalizedString("[fr]Newsletter [en]Newsletter", language)}</Link>
             <select onChange={(e) => setLanguage(e.target.value)} value={language} className="border p-1 rounded">
               <option value="fr">FR</option>
               <option value="en">EN</option>
@@ -60,10 +59,10 @@ export default function Home() {
           </div>
         </div>
         <div className={`z-10 lg:hidden flex absolute top-0 left-0  w-full ${menu ? 'h-screen' : 'h-0'} duration-500 overflow-hidden flex-col justify-center items-center bg-white gap-8 uppercase text-green font-bold xl:text-lg `}>
-          <Link onClick={() => setMenu(false)} href="#description">{getLocalizedString("[fr]Notre projet [en]Our Project", language)}</Link>
-          <Link onClick={() => setMenu(false)} href="#europe">{getLocalizedString("[fr]Destinations [en]Destinations", language)}</Link>
-          <Link onClick={() => setMenu(false)} href="#steps">{getLocalizedString("[fr]Fonctionnement [en]How It Works", language)}</Link>
-          <Link onClick={() => setMenu(false)} href="#newsletter">{getLocalizedString("[fr]Newsletter [en]Newsletter", language)}</Link>
+          <Link onClick={() => setMenu(false)} href="#description" className="hover:underline">{getLocalizedString("[fr]Notre projet [en]Our Project", language)}</Link>
+          <Link onClick={() => setMenu(false)} href="#europe" className="hover:underline">{getLocalizedString("[fr]Destinations [en]Destinations", language)}</Link>
+          <Link onClick={() => setMenu(false)} href="#steps" className="hover:underline">{getLocalizedString("[fr]Fonctionnement [en]How It Works", language)}</Link>
+          <Link onClick={() => setMenu(false)} href="#newsletter" className="hover:underline">{getLocalizedString("[fr]Newsletter [en]Newsletter", language)}</Link>
           <select onChange={(e) => setLanguage(e.target.value)} value={language} className="border p-1 rounded">
             <option value="fr">Français</option>
             <option value="en">English</option>
@@ -211,19 +210,19 @@ export default function Home() {
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
                 <Search className="w-8 md:w-12 h-8 md:h-12 text-green" />
-                <span className="flex-1"><strong>{getLocalizedString("[fr]Recherchez votre destination [en]Search for your destination", language)}</strong> - {getLocalizedString("[fr]Saisissez votre ville et explorez les profils de guides locaux disponibles. [en]Enter your city and explore the profiles of available local guides.", language)}</span>
+                <span className="flex-1"><strong>{getLocalizedString("[fr]Recherchez votre destination [en]Search for your destination", language)}</strong> - {getLocalizedString("[fr]Saisissez votre ville et dates de voyage puis explorez les profils de guides locaux disponibles. [en]Enter your city and date of your trip then explore the profiles of available local guides.", language)}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Users className="w-8 md:w-12 h-8 md:h-12 text-green" />
                 <span className="flex-1"><strong>{getLocalizedString("[fr]Choisissez votre guide [en]Choose your guide", language)}</strong> - {getLocalizedString("[fr]Consultez les avis, l’expérience et les spécialités de chaque guide pour trouver celui qui correspond à vos attentes. [en]Check reviews, experience, and specialties of each guide to find the one that meets your expectations.", language)}</span>
               </li>
               <li className="flex items-center gap-3">
-                <Calendar className="w-8 md:w-12 h-8 md:h-12 text-green" />
-                <span className="flex-1"><strong>{getLocalizedString("[fr]Réservez votre créneau [en]Book your slot", language)}</strong> - {getLocalizedString("[fr]Sélectionnez la date qui vous convient et procédez à la réservation sécurisée en ligne. [en]Select a date that suits you and proceed with secure online booking.", language)}</span>
+                <MessageSquareText className="w-8 md:w-12 h-8 md:h-12 text-green" />
+                <span className="flex-1"><strong>{getLocalizedString("[fr]Echanger avec votre guide [en]Exchange with your guide", language)}</strong> - {getLocalizedString("[fr]Affiner les détails et procédez à la réservation sécurisée en ligne. [en]Slim the details and proceed with secure online booking.", language)}</span>
               </li>
               <li className="flex items-center gap-3">
                 <CheckCircle className="ww-8 md:w-12 h-8 md:h-12 text-green" />
-                <span className="flex-1"><strong>{getLocalizedString("[fr]Profitez de votre visite [en]Enjoy your tour", language)}</strong> - {getLocalizedString("[fr]Retrouvez votre guide le jour J et vivez une aventure authentique et mémorable. [en]Meet your guide on the day and enjoy an authentic and memorable adventure.", language)}</span>
+                <span className="flex-1"><strong>{getLocalizedString("[fr]Profitez de votre visite [en]Enjoy your tour", language)}</strong> - {getLocalizedString("[fr]Retrouvez ou restez en contact avec votre guide le jour J et vivez une aventure authentique et mémorable. [en]Meet or stay in contact with your guide on the day and enjoy an authentic and memorable adventure.", language)}</span>
               </li>
             </ul>
           </div>
@@ -231,9 +230,9 @@ export default function Home() {
         <section id="newsletter" className="bg-green max-w-7xl mx-4 xl:mx-auto my-6 md:my-12 p-4 md:p-8 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-[0_0_20px] shadow-black/20">
           <div className="text-white text-base md:text-lg lg:w-2/3">
             <h2 className="font-bold text-yellow text-3xl md:text-5xl mb-4">{getLocalizedString("[fr]Rejoignez notre communauté de voyageurs [en]Join our traveler community", language)}</h2>
-            <p>{getLocalizedString("[fr]Inscrivez-vous à notre newsletter et suivez toutes les étapes importantes du projet de la beta, à la sortie, jusqu'au offres promotionelles de l'applications. [en]Sign up for our newsletter and follow all the important steps of the project, from beta release to promotional offers for the app.", language)}</p>
+            <p>{getLocalizedString("[fr]Inscrivez-vous à notre newsletter et suivez toutes les étapes importantes du projet de la beta, à la sortie, jusqu'au offres promotionelles de l'application. [en]Sign up for our newsletter and follow all the important steps of the project, from beta release to promotional offers for the app.", language)}</p>
           </div>
-          <form action="get" className="flex gap-4 flex-col sm:flex-row sm:items-end">
+          <form className="flex gap-4 flex-col sm:flex-row sm:items-end">
             <input type="email" name="email" id="email" placeholder={getLocalizedString("[fr]Votre e-mail [en]Your email", language)} className="px-4 py-2 text-2xl rounded-xl w-full sm:w-auto"/>
             <input type="submit" value={getLocalizedString("[fr]S'inscrire [en]Sign Up", language)} className="uppercase px-6 py-2.5 bg-yellow hover:scale-110 font-semibold duration-500 text-xl cursor-pointer rounded-xl w-full sm:w-auto"/>
           </form>
@@ -242,11 +241,11 @@ export default function Home() {
       <footer className="py-12 relative px-4">
         <div className="bg-orange h-px max-w-5xl rounded-full w-10/12 left-1/2 -translate-x-1/2 px-4 absolute top-0"/>
         <div className="flex md:flex-row flex-col max-w-7xl mx-auto items-center justify-between">
-          <Image src={logo_square} alt="LocoTrip Logo" className="w-40 md:w-56"/>
+          <Link href="#head"><Image src={logo_square} alt="LocoTrip Logo" className="w-40 md:w-56"/></Link>
           <div className="flex flex-col gap-3 items-center mt-6 md:mt-0 md:items-end">
-            <Link href="">Legal Notice</Link>
-            <Link href="">Privacy Policy</Link>
-            <p>All rights reserved - Loco Trip</p>
+            <Link href="">{getLocalizedString("[fr]Mentions légales [en]Legal Notice", language)} </Link>
+            <Link href="">{getLocalizedString("[fr]Politique de confidentialité [en]Privacy Policy", language)}</Link>
+            <p>{getLocalizedString("[fr]Tout droits réservés [en]All rights reserved", language)} - Loco Trip</p>
           </div>
         </div>
       </footer>
