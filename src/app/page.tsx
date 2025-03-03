@@ -21,9 +21,9 @@ import train_photo from "@/assets/images/train_photo.jpg";
 import friends_trip_photo from "@/assets/images/friends_trip_photo.jpg";
 import logo_horizontal from "@/assets/images/logo_horizontal.png";
 import logo_square from "@/assets/images/logo_square.png";
-import europe_map from "@/assets/images/europe_map.png";
 import step_photo from "@/assets/images/step_photo.jpg";
 import { useState } from "react";
+import { useEffect } from "react";
 
 export default function Home() {
   const [menu, setMenu] = useState(false);
@@ -41,6 +41,16 @@ export default function Home() {
     return texts[language] || texts[defaultLang] || text.trim();
   };
 
+    useEffect(() => {
+      const script = document.createElement("script");
+      script.src = "/map.js";
+      script.async = true;
+      document.body.appendChild(script);
+      return () => {
+        document.body.removeChild(script);
+      };
+    }, []);
+  
   return (
     <>
       <header className="z-50 fixed top-0 xl:top-4 xl:left-1/2 xl:-translate-x-1/2 w-full max-w-7xl ">
@@ -100,7 +110,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="max-w-7xl mx-auto px-4 pb-6 lg:pb-28 space-y-20">
+        <section className="max-w-7xl mx-auto px-4 pb-6 mb-8 lg:pb-28 space-y-20">
           <div className="flex flex-col md:flex-row gap-6 md:gap-0 justify-between items-center w-full">
             <div className="md:hover:scale-105 duration-500 relative z-0 aspect-square md:aspect-[0.85] bg-gray-300 w-full md:w-4/12 shadow-[0_0_20px] shadow-black/20 rounded-3xl overflow-hidden">
               <Image src={train_photo} alt="Guide local en action" fill className="inset-0 object-cover"/>
@@ -144,7 +154,7 @@ export default function Home() {
         </section>
         <section id="europe" className=" relative py-6 lg:py-16 flex flex-col items-end">
           <div className="max-w-7xl mx-auto px-4">
-            <div className="flex-1 space-y-4 text-base md:text-lg py-8 lg:w-[60%]">
+            <div className="flex-1 space-y-4 text-base md:text-lg py-8 lg:w-[45%]">
               <h2 className="text-2xl md:text-4xl font-bold mb-4">
                 {getLocalizedString("[fr]LocoTrip : Guides Locaux dans toute l'Europe [en]LocoTrip: Local Guides Across Europe", language)}
               </h2>
@@ -160,9 +170,16 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <Image src={europe_map} alt="Logo Locotrip" className="max-w-xl w-full lg:max-w-none lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:right-0 lg:w-[38%] object-contain pl-8"/>
+          {/* <Image src={europe_map} alt="Logo Locotrip" className="max-w-xl w-full lg:max-w-none lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:right-0 lg:w-[38%] object-contain pl-8"/> */}
+          <object
+            type="image/svg+xml"
+            data="/svg_europe.svg"
+            id="europe-map"
+            className="max-w-xl w-full lg:max-w-none lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:right-0 lg:w-[55%] object-contain pl-8"
+          ></object>
+
         </section>
-        <section id="reassurance" className="max-w-7xl mx-auto px-4 pt-16 md:pt-40 pb-8 md:pb-24 text-center grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+        <section id="reassurance" className="max-w-7xl mx-auto px-4 pt-16 mt-10 md:pt-40 pb-8 md:pb-24 text-center grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
           <div>
             <ShieldCheck className="mx-auto w-12 h-12 text-green mb-4" />
             <h3 className="text-lg md:text-2xl font-bold">
