@@ -172,7 +172,7 @@ export default function Home() {
             type="image/svg+xml"
             data="/svg_europe.svg"
             id="europe-map"
-            className="max-w-xl w-full lg:max-w-none lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:right-0 lg:w-[55%] object-contain pl-8"
+            className="max-w-xl w-full lg:max-w-none lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:right-0 lg:w-[48%] object-contain pl-8"
           ></object>
 
         </section>
