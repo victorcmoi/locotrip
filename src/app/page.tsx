@@ -12,7 +12,7 @@ import {
   Search,
   ShieldCheck,
   Train,
-  Users
+  Users, Calendar
 } from "lucide-react";
 import header_photos from "@/assets/images/tourist_head_photo.jpg";
 import old_trip_photo from "@/assets/images/old_trip_photo.jpg";
