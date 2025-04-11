@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "ourProject": "Nuestro Proyecto",
+    "destinations": "Destinos",
+    "howItWorks": "Cómo Funciona",
+    "newsletter": "Boletín"
+  },
+  "hero": {
+    "title": "Viaja de manera diferente con guías locales apasionados",
+    "subtitle": "Descubre ciudades a través de los ojos de sus residentes con nuestros experimentados guías locales.",
+    "cta": "Descubrir LocoTrip"
+  },
+  "description": {
+    "title": "¿Por qué elegir un guía local con LocoTrip?",
+    "paragraph1": "LocoTrip es la plataforma ideal para viajeros que desean explorar ciudades con guías locales certificados. Nuestros guías locales ofrecen tours personalizados adaptados a tus intereses, ya sea historia, gastronomía, arquitectura o cultura.",
+    "paragraph2": "A diferencia de los tours turísticos tradicionales, nuestros guías locales te llevan a joyas escondidas, barrios vibrantes y te ayudan a descubrir el verdadero alma de las ciudades que visitas. Gracias a nuestro sistema de matching inteligente, puedes encontrar fácilmente el guía perfecto para tu viaje."
+  },
+  "features": {
+    "card1": {
+      "title": "Explora con un experto",
+      "description": "Nuestros guías locales revelan los secretos ocultos de cada destino"
+    },
+    "card2": {
+      "title": "Disfruta de una experiencia única",
+      "description": "Sumérgete en el corazón de las tradiciones y la cultura local con nuestros apasionados expertos"
+    },
+    "card3": {
+      "title": "Encuentros auténticos",
+      "description": "Interactúa con guías apasionados y vive momentos inolvidables"
+    }
+  },
+  "europe": {
+    "title": "LocoTrip: Guías Locales por toda Europa",
+    "paragraph1": "Aspiramos a ampliar nuestra red de guías locales a 20 importantes ciudades europeas en los próximos 5 años. Ya sea que visites París, Roma, Barcelona o Berlín, encuentra un guía local que se adapte a tus necesidades y disfruta de una experiencia única.",
+    "paragraph2": "Nuestra plataforma facilita la conexión entre viajeros y guías locales, ofreciéndote aventuras inmersivas. Puedes explorar lugares escondidos, probar la cocina local y descubrir la auténtica cultura de cada destino.",
+    "paragraph3": "Estamos comprometidos a hacer que viajar sea más accesible y respetuoso con el medio ambiente, fomentando el uso de transportes sostenibles, como el tren, para viajar entre ciudades europeas."
+  },
+  "reassurance": {
+    "item1": {
+      "title": "Selección Estricta",
+      "description": "Nuestros guías locales son cuidadosamente seleccionados para garantizar experiencias de alta calidad y seguridad óptima."
+    },
+    "item2": {
+      "title": "Experiencias Auténticas",
+      "description": "Vive momentos únicos en completa inmersión con locales apasionados que conocen su ciudad mejor que nadie."
+    },
+    "item3": {
+      "title": "Facilidad y Flexibilidad",
+      "description": "Reserva con facilidad y disfruta de una experiencia personalizada adaptada a tus deseos y ritmo."
+    },
+    "item4": {
+      "title": "Viaje Ecológico",
+      "description": "Destacamos el tren como el modo de transporte preferido para reducir la huella de carbono y promover un turismo más sostenible."
+    }
+  },
+  "steps": {
+    "title": "¿Cómo reservar un guía local con LocoTrip?",
+    "intro": "Reservar un guía local en LocoTrip es simple y rápido. Sigue estos pasos para disfrutar de una experiencia inmersiva única con un experto local.",
+    "step1": {
+      "title": "Busca tu destino",
+      "description": "Ingresa tu ciudad y explora los perfiles de guías locales disponibles."
+    },
+    "step2": {
+      "title": "Elige tu guía",
+      "description": "Consulta reseñas, experiencia y especialidades de cada guía para encontrar el que satisfaga tus expectativas."
+    },
+    "step3": {
+      "title": "Reserva tu horario",
+      "description": "Selecciona una fecha que te convenga y procede con la reserva segura en línea."
+    },
+    "step4": {
+      "title": "Disfruta de tu recorrido",
+      "description": "Conoce a tu guía el día acordado y disfruta de una aventura auténtica y memorable."
+    }
+  },
+  "newsletter": {
+    "title": "Únete a nuestra comunidad de viajeros",
+    "description": "Suscríbete a nuestro boletín y sigue todos los pasos importantes del proyecto, desde la versión beta hasta las ofertas promocionales para la aplicación.",
+    "placeholder": "Tu correo electrónico",
+    "button": "Suscribirse"
+  }
+}

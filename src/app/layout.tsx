@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Loco Trip",
-  description: "Découvrez notre plateforme de mise en relation de voyageurs avec des locaux.",
+  title: "Locotrip",
+  description: "Discover our platform and start to plane your next trip !",
 };
 
 export default function RootLayout({
