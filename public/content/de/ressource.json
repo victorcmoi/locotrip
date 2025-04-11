@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "ourProject": "Unser Projekt",
+    "destinations": "Reiseziele",
+    "howItWorks": "Funktionsweise",
+    "newsletter": "Newsletter"
+  },
+  "hero": {
+    "title": "Reisen Sie anders mit leidenschaftlichen lokalen Guides",
+    "subtitle": "Entdecken Sie Städte durch die Augen ihrer Bewohner mit unseren erfahrenen lokalen Guides.",
+    "cta": "LocoTrip entdecken"
+  },
+  "description": {
+    "title": "Warum einen lokalen Guide mit LocoTrip wählen?",
+    "paragraph1": "LocoTrip ist die ideale Plattform für Reisende, die Städte mit zertifizierten lokalen Guides erkunden möchten. Unsere lokalen Guides bieten personalisierte Touren, die auf Ihre Interessen zugeschnitten sind, sei es Geschichte, Gastronomie, Architektur oder Kultur.",
+    "paragraph2": "Im Gegensatz zu traditionellen Touristentouren führen Sie unsere lokalen Guides zu versteckten Schätzen, lebendigen Vierteln und helfen Ihnen, die wahre Seele der Städte zu entdecken, die Sie besuchen. Dank unseres intelligenten Matching-Systems finden Sie leicht den perfekten Guide für Ihre Reise."
+  },
+  "features": {
+    "card1": {
+      "title": "Erkunden Sie mit einem Experten",
+      "description": "Unsere lokalen Guides enthüllen die verborgenen Geheimnisse jedes Reiseziels"
+    },
+    "card2": {
+      "title": "Genießen Sie ein einzigartiges Erlebnis",
+      "description": "Tauchen Sie ein in die lokalen Traditionen und Kultur mit unseren leidenschaftlichen Experten"
+    },
+    "card3": {
+      "title": "Authentische Begegnungen",
+      "description": "Interagieren Sie mit leidenschaftlichen Guides und erleben Sie unvergessliche Momente"
+    }
+  },
+  "europe": {
+    "title": "LocoTrip: Lokale Guides in ganz Europa",
+    "paragraph1": "Wir streben an, unser Netzwerk lokaler Guides in den nächsten 5 Jahren auf 20 große europäische Städte zu erweitern. Ob Sie Paris, Rom, Barcelona oder Berlin besuchen, finden Sie einen lokalen Guide, der Ihren Bedürfnissen entspricht, und genießen Sie ein einzigartiges Erlebnis.",
+    "paragraph2": "Unsere Plattform erleichtert die Verbindung zwischen Reisenden und lokalen Guides und bietet Ihnen immersive Abenteuer. Sie können versteckte Orte erkunden, lokale Küche probieren und die authentische Kultur jedes Reiseziels entdecken.",
+    "paragraph3": "Wir setzen uns dafür ein, Reisen zugänglicher und umweltfreundlicher zu gestalten, indem wir die Nutzung nachhaltiger Verkehrsmittel wie den Zug für Reisen zwischen europäischen Städten fördern."
+  },
+  "reassurance": {
+    "item1": {
+      "title": "Strenge Auswahl",
+      "description": "Unsere lokalen Guides werden sorgfältig ausgewählt, um hochwertige Erlebnisse und optimale Sicherheit zu gewährleisten."
+    },
+    "item2": {
+      "title": "Authentische Erlebnisse",
+      "description": "Erleben Sie einzigartige Momente in vollständiger Immersion mit leidenschaftlichen Einheimischen, die ihre Stadt besser kennen als jeder andere."
+    },
+    "item3": {
+      "title": "Einfachheit und Flexibilität",
+      "description": "Buchen Sie mit Leichtigkeit und genießen Sie ein personalisiertes Erlebnis, das auf Ihre Wünsche und Ihr Tempo zugeschnitten ist."
+    },
+    "item4": {
+      "title": "Umweltfreundliches Reisen",
+      "description": "Wir heben den Zug als bevorzugtes Verkehrsmittel hervor, um den CO2-Fußabdruck zu reduzieren und einen nachhaltigeren Tourismus zu fördern."
+    }
+  },
+  "steps": {
+    "title": "Wie bucht man einen lokalen Guide mit LocoTrip?",
+    "intro": "Einen lokalen Guide auf LocoTrip zu buchen ist einfach und schnell. Folgen Sie diesen Schritten, um ein einzigartiges immersives Erlebnis mit einem lokalen Experten zu genießen.",
+    "step1": {
+      "title": "Suchen Sie Ihr Reiseziel",
+      "description": "Geben Sie Ihre Stadt ein und erkunden Sie die Profile verfügbarer lokaler Guides."
+    },
+    "step2": {
+      "title": "Wählen Sie Ihren Guide",
+      "description": "Prüfen Sie Bewertungen, Erfahrung und Spezialitäten jedes Guides, um denjenigen zu finden, der Ihren Erwartungen entspricht."
+    },
+    "step3": {
+      "title": "Buchen Sie Ihren Termin",
+      "description": "Wählen Sie ein Datum, das Ihnen passt, und fahren Sie mit der sicheren Online-Buchung fort."
+    },
+    "step4": {
+      "title": "Genießen Sie Ihre Tour",
+      "description": "Treffen Sie Ihren Guide am vereinbarten Tag und genießen Sie ein authentisches und unvergessliches Abenteuer."
+    }
+  },
+  "newsletter": {
+    "title": "Treten Sie unserer Reisenden-Community bei",
+    "description": "Melden Sie sich für unseren Newsletter an und verfolgen Sie alle wichtigen Schritte des Projekts, von der Beta-Version bis zu Sonderangeboten für die App.",
+    "placeholder": "Ihre E-Mail",
+    "button": "Anmelden"
+  }
+}
