@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "ourProject": "Notre projet",
+    "destinations": "Destinations",
+    "howItWorks": "Fonctionnement",
+    "newsletter": "Newsletter"
+  },
+  "hero": {
+    "title": "Voyagez autrement avec des guides locaux passionnés",
+    "subtitle": "Découvrez les villes à travers les yeux de leurs habitants grâce à nos guides locaux expérimentés.",
+    "cta": "Découvrir LocoTrip"
+  },
+  "description": {
+    "title": "Pourquoi choisir un guide local avec LocoTrip ?",
+    "paragraph1": "LocoTrip est la plateforme idéale pour les voyageurs souhaitant explorer les villes en compagnie de guides locaux certifiés. Nos guides locaux offrent des visites personnalisées adaptées à vos centres d'intérêt, que ce soit l'histoire, la gastronomie, l'architecture ou la culture.",
+    "paragraph2": "Contrairement aux circuits touristiques classiques, nos guides locaux vous emmènent dans des lieux secrets, des quartiers vivants et vous font découvrir l'âme véritable des villes que vous visitez. Grâce à notre système de mise en relation intelligente, vous trouverez facilement le guide parfait pour votre voyage."
+  },
+  "features": {
+    "card1": {
+      "title": "Explorez avec un expert",
+      "description": "Nos guides locaux vous font découvrir les secrets cachés de chaque destination"
+    },
+    "card2": {
+      "title": "Vivez une expérience unique",
+      "description": "Plongez au cœur des traditions et de la culture locale grâce à nos experts passionnés"
+    },
+    "card3": {
+      "title": "Des rencontres authentiques",
+      "description": "Échangez avec des guides passionnés et vivez des moments inoubliables"
+    }
+  },
+  "europe": {
+    "title": "LocoTrip : Guides Locaux dans toute l'Europe",
+    "paragraph1": "Nous avons pour ambition d'étendre notre réseau de guides locaux dans 20 grandes villes européennes d'ici 5 ans. Que vous visitiez Paris, Rome, Barcelone ou Berlin, trouvez un guide local qui correspond à vos attentes et profitez d'une expérience unique.",
+    "paragraph2": "Notre plateforme facilite la rencontre entre voyageurs et guides locaux afin de vous offrir des aventures immersives. Vous pourrez explorer des lieux méconnus, goûter à la cuisine locale et découvrir la culture authentique de chaque destination.",
+    "paragraph3": "Nous nous engageons à rendre le voyage plus accessible et plus respectueux de l'environnement en encourageant l'utilisation des transports durables comme le train pour se déplacer entre les villes européennes."
+  },
+  "reassurance": {
+    "item1": {
+      "title": "Sélection Rigoureuse",
+      "description": "Nos guides locaux sont soigneusement sélectionnés pour garantir des expériences de qualité et une sécurité optimale."
+    },
+    "item2": {
+      "title": "Expériences Authentiques",
+      "description": "Vivez des moments uniques en immersion totale avec des habitants passionnés qui connaissent leur ville mieux que personne."
+    },
+    "item3": {
+      "title": "Facilité et Flexibilité",
+      "description": "Réservez en toute simplicité et profitez d'une expérience personnalisée selon vos envies et votre rythme."
+    },
+    "item4": {
+      "title": "Voyager Éco-responsable",
+      "description": "Nous mettons en avant le train comme moyen de transport privilégié pour réduire l'empreinte carbone et favoriser un tourisme plus durable."
+    }
+  },
+  "steps": {
+    "title": "Comment réserver un guide local avec LocoTrip ?",
+    "intro": "Réserver un guide local sur LocoTrip est simple et rapide. Suivez ces étapes pour vivre une expérience immersive unique avec un expert local.",
+    "step1": {
+      "title": "Recherchez votre destination",
+      "description": "Saisissez votre ville et explorez les profils de guides locaux disponibles."
+    },
+    "step2": {
+      "title": "Choisissez votre guide",
+      "description": "Consultez les avis, l'expérience et les spécialités de chaque guide pour trouver celui qui correspond à vos attentes."
+    },
+    "step3": {
+      "title": "Réservez votre créneau",
+      "description": "Sélectionnez la date qui vous convient et procédez à la réservation sécurisée en ligne."
+    },
+    "step4": {
+      "title": "Profitez de votre visite",
+      "description": "Retrouvez votre guide le jour J et vivez une aventure authentique et mémorable."
+    }
+  },
+  "newsletter": {
+    "title": "Rejoignez notre communauté de voyageurs",
+    "description": "Inscrivez-vous à notre newsletter et suivez toutes les étapes importantes du projet de la beta, à la sortie, jusqu'au offres promotionelles de l'applications.",
+    "placeholder": "Votre e-mail",
+    "button": "S'inscrire"
+  }
+}

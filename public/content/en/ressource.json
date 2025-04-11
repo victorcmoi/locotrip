@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "ourProject": "Our Project",
+    "destinations": "Destinations",
+    "howItWorks": "How It Works",
+    "newsletter": "Newsletter"
+  },
+  "hero": {
+    "title": "Travel differently with passionate local guides",
+    "subtitle": "Discover cities through the eyes of their residents with our experienced local guides.",
+    "cta": "Discover LocoTrip"
+  },
+  "description": {
+    "title": "Why choose a local guide with LocoTrip?",
+    "paragraph1": "LocoTrip is the ideal platform for travelers looking to explore cities with certified local guides. Our local guides offer personalized tours tailored to your interests, whether it's history, gastronomy, architecture, or culture.",
+    "paragraph2": "Unlike traditional tourist tours, our local guides take you to hidden gems, vibrant neighborhoods, and help you discover the true soul of the cities you visit. Thanks to our smart matching system, you can easily find the perfect guide for your trip."
+  },
+  "features": {
+    "card1": {
+      "title": "Explore with an expert",
+      "description": "Our local guides reveal the hidden secrets of each destination"
+    },
+    "card2": {
+      "title": "Enjoy a unique experience",
+      "description": "Dive into the heart of local traditions and culture with our passionate experts"
+    },
+    "card3": {
+      "title": "Authentic encounters",
+      "description": "Engage with passionate guides and experience unforgettable moments"
+    }
+  },
+  "europe": {
+    "title": "LocoTrip: Local Guides Across Europe",
+    "paragraph1": "We aim to expand our network of local guides to 20 major European cities within the next 5 years. Whether you're visiting Paris, Rome, Barcelona, or Berlin, find a local guide that suits your needs and enjoy a unique experience.",
+    "paragraph2": "Our platform makes it easy for travelers to connect with local guides, offering you immersive adventures. You can explore hidden spots, taste local cuisine, and discover the authentic culture of each destination.",
+    "paragraph3": "We are committed to making travel more accessible and environmentally friendly by encouraging the use of sustainable transport, such as trains, to travel between European cities."
+  },
+  "reassurance": {
+    "item1": {
+      "title": "Strict Selection",
+      "description": "Our local guides are carefully selected to ensure high-quality experiences and optimal safety."
+    },
+    "item2": {
+      "title": "Authentic Experiences",
+      "description": "Experience unique moments in complete immersion with passionate locals who know their city better than anyone."
+    },
+    "item3": {
+      "title": "Ease and Flexibility",
+      "description": "Book with ease and enjoy a personalized experience tailored to your desires and pace."
+    },
+    "item4": {
+      "title": "Eco-friendly Travel",
+      "description": "We highlight the train as the preferred mode of transport to reduce carbon footprints and promote more sustainable tourism."
+    }
+  },
+  "steps": {
+    "title": "How to book a local guide with LocoTrip?",
+    "intro": "Booking a local guide on LocoTrip is simple and fast. Follow these steps to enjoy a unique immersive experience with a local expert.",
+    "step1": {
+      "title": "Search for your destination",
+      "description": "Enter your city and explore the profiles of available local guides."
+    },
+    "step2": {
+      "title": "Choose your guide",
+      "description": "Check reviews, experience, and specialties of each guide to find the one that meets your expectations."
+    },
+    "step3": {
+      "title": "Book your slot",
+      "description": "Select a date that suits you and proceed with secure online booking."
+    },
+    "step4": {
+      "title": "Enjoy your tour",
+      "description": "Meet your guide on the day and enjoy an authentic and memorable adventure."
+    }
+  },
+  "newsletter": {
+    "title": "Join our traveler community",
+    "description": "Sign up for our newsletter and follow all the important steps of the project, from beta release to promotional offers for the app.",
+    "placeholder": "Your email",
+    "button": "Sign Up"
+  }
+}
